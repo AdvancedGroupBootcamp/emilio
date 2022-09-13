@@ -1,0 +1,424 @@
+    1  sudo apt-get update; sudo apt-get install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+    2  curl https://pyenv.run | bash
+    3  # pyenv
+    4  export PATH="$HOME/.pyenv/bin:$PATH"
+    5  eval "$(pyenv init --path)"
+    6  eval "$(pyenv virtualenv-init -)"
+    7  exec $SHELL
+    8  pyenv --version
+    9  pyenv install 3.8.0
+   10  pyenv --version
+   11  pyenv install -l}
+   12  pyenv install 3.8.1
+   13  git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git $(pyenv root)/plugins/pyenv-virtualenvwrapper
+   14  pyenv virtualenvwrapper
+   15  wget https://repo.anaconda.com/miniconda/Miniconda3-py38_4.12.0-Linux-x86_64.sh
+   16  bash Miniconda3-py38_4.12.0-Linux-x86_64.sh
+   17  conda
+   18  conda list
+   19  pyenv versions
+   20  apt update -y
+   21  sudo chmod +x Miniconda3-latest-Linux-x86_64.sh
+   22  sudo wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+   23  sudo chmod +x Miniconda3-latest-Linux-x86_64.sh
+   24  ./Miniconda3-latest-Linux-x86_64.sh
+   25  conda -u
+   26  nano .bashrc
+   27  source .bashrc
+   28  conda env list
+   29  conda create -n BootCamp python=3.8
+   30  conda activate BootCamp
+   31  cd bash_tutorial
+   32  git clone git@github.com:maxpoulain/bash_tutorial.git
+   33  cd
+   34  pwd
+   35  git clone https://github.com/maxpoulain/bash_tutorial.git
+   36  cd exercises
+   37  pwd
+   38  ls
+   39  cd bash_tutorial
+   40  ls
+   41  cd exercises/
+   42  ls
+   43  cd exerccise_1
+   44  cd exercise_1
+   45  ls
+   46  cd directoryA
+   47  ls
+   48  cd..
+   49  cd ..
+   50  cd directoryB
+   51  ls
+   52  cd solution_1.1
+   53  ls
+   54  cd --
+   55  cd ..
+   56  ls
+   57  cd solution_1.1
+   58  cd
+   59  cd bash_tutorial
+   60  cd exercises/exercise_1/
+   61  ls
+   62  cd directoryC
+   63  ls
+   64  cd text_file
+   65  ls
+   66  cd ..
+   67  ls
+   68  ls -R
+   69  cd ..
+   70  ls
+   71  cd exercise_2
+   72  ls -R
+   73  cd ..
+   74  exercise_1
+   75  ls
+   76  cd exercise_1
+   77  ls
+   78  cd directory B
+   79  cd directoryB
+   80  ls -a
+   81  cd solution_1.1
+   82  ls
+   83  cd ..
+   84  cd solution_1.1
+   85  ls -a
+   86  CD ..
+   87  source program.sh
+   88  cd ..
+   89  source program.sh
+   90  cd ..
+   91  cd directoryC
+   92  ls -l
+   93  cd ..
+   94  ls
+   95  cd exercise_2
+   96  ls
+   97  less solution_2.1.txt
+   98  ls
+   99  cd ..
+  100  cd exercise_2
+  101  nano exercise2
+  102  ls
+  103  nano APTENY
+  104  cd APTENY
+  105  nano APTENY
+  106  LS
+  107  ls
+  108  nano APTENY
+  109  rm APTENY
+  110  ls
+  111  cd ..
+  112  cd exercise_3
+  113  ls
+  114  mkdir solution
+  115  ls
+  116  cp part1 solution
+  117  ls
+  118  cp ../exercise_3/part1 ../exercise_3/solution
+  119  cd part1
+  120  ls
+  121  cd ..
+  122  ls
+  123  cd ../exercise_3/part1/UIMDELGKBCYF.txt ../exercise_3/solution
+  124  cd
+  125  
+  126  ls
+  127  
+  128 
+  131  ls
+  132  cd :~/bash_tutorial/exercises/exercise_3
+  133  cd /bash_tutorial/exercises/exercise_3
+  134  cd bash_tutorial/exercises/exercise_3
+  135  ls
+  136  cp part1/* solution
+  137  ls
+  138  cp part2/* solution
+  139  cd solution
+  140  ls
+  141  cd ..
+  142  ls -l solution/*
+  143  cd ..
+  144  ls
+  145  cd exercise_3
+  146  ls
+  147  cd part1
+  148  ls
+  149  cat UIMDELGKBCYF.txt 
+  150  cd ..
+  151  ls
+  152  cd part2
+  153  ls
+  154  cat ___+______+_.txt 
+  155  cd ..
+  156  ls
+  157  cd data
+  158  ls
+  159  rm A_X_X_X_Y_X_X
+  160  ls
+  161  rm X_S_X_Y_X_X_X
+  162  rm X_X_X_I_X_Y_X
+  163  rm X_X_X_X_O_X_Y
+  164  rm X_Y_X_X_X_X_H
+  165  ls
+  166  rm Y_X_X_X_X_W_X
+  167  ls
+  168  cd ..
+  169  cd exercise_4
+  170  ls
+  171  diff ai.txt artificial_intelligence.txt
+  172  less elephant.txt | sort
+  173  less elephant.txt | sort > result.txt
+  174  ls
+  175  grep fire datascience.txt
+  176  cd ..
+  177  cd exercise_5
+  178  ls
+  179  unzip wrapped.zip
+  180  sudo apt install unzip
+  181  unzip wrapped.zip
+  182  tar -xf wrapped.tar
+  183  ls
+  184  cd solution
+  185  ls
+  186  gunzip solution.txt.gz 
+  187  ls
+  188  cd solution.txt
+  189  less solution.txt
+  190  cd ..
+  191  ls
+  192  cd exercise_6
+  193  ls
+  194  ls -l
+  195  chmod a+x permissions.sh
+  196  ls
+  197  ./permissions.sh
+  198  df
+  199  df --help
+  200  df --version
+  201  env
+  202  ls
+  203  export GIVEME=SOLUTION
+  204  LS
+  205  ls
+  206  env
+  207  echo $GIVEME
+  208  echo $GIVEME | wc - c
+  209  echo $GIVEME | wc -c
+  210  ping www.spiced-academy.com
+  211  ./check_ping
+  212  man ping
+  213  cd
+  214  git clone https://github.com/emilioes/git_lesson.git
+  215  LS
+  216  ls
+  217  cd git_lesson
+  218  cd
+  219  ls
+  220  cd bash_tutorial
+  221  cd ..
+  222  git init
+  223  git remote add origin https://github.com/AdvancedGroupBootcamp/emilio.git
+  224  ls
+  225  git add README.md
+  226  git init
+  227  git clone https://github.com/AdvancedGroupBootcamp/emilio.git
+  228  ls
+  229  cd emilio
+  230  git add README.md
+  231  git remote add origin https://github.com/AdvancedGroupBootcamp/emilio.git
+  232  git branch -M main
+  233  git diff
+  234  ls
+  235  echo "aptenodytes tatagonicus" >> README.md
+  236  ls
+  237  less README.md
+  238  git diff
+  239  git push
+  240  ls
+  241  mkdir bash_exercise
+  242  ls
+  243  mv README.md bash_exercise
+  244  ls
+  245  cd bash_exercise
+  246  ls
+  247  mv README.md SOLUTION.md
+  248  ls
+  249  cd
+  250  cd emilio
+  251  git status
+  252  git add bash_exercise
+  253  git commit -m "bash exercise solution"
+  254  git config --global user.email "emil01155@gmail.com"
+  255  git config --global user.name "emilioes"
+  256  git log
+  257  git push
+  258  git commit -m "bash exercise solution"
+  259  git push
+  260  git remote update origin git@github.com:AdvancedGroupBootcamp/emilio.git
+  261  git remote add origin git@github.com:AdvancedGroupBootcamp/emilio.git
+  262  git remote set-url origin git@github.com:AdvancedGroupBootcamp/emilio.git
+  263  git push
+  264  cd ..
+  265  ls
+  266  cd git_lesson
+  267  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+  268  sh replace_in_file character1/Ygritte.txt "You know nothing"
+  269  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+  270  git status
+  271  git commit -m
+  272  cd
+  273  cd emilio
+  274  git add "Game of Thrones"
+  275  git add GoT
+  276  git add git_lesson
+  277  ls
+  278  mkdir GoT
+  279  ls
+  280  c
+  281  cd
+  282  ls
+  283  cd git_lesson
+  284  cd
+  285  cd emilio
+  286  cd GoT
+  287  git commit -m "Ygrette message"
+  288  git status
+  289  cd
+  290  cd git_lesson
+  291  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+  292  git status
+  293  git diff
+  294  git commit -m "Ygrette message"
+  295  git add character1/Ygrette.txt
+  296  git clone git@github.com:emilioes/git_lesson.git
+  297  cd
+  298  git clone git@github.com:emilioes/git_lesson.git
+  299  ls
+  300  git_lesson
+  301  cd git_lesson
+  302  ls
+  303  cd
+  304  ls
+  305  mkdir New_Git_lesson
+  306  ls
+  307  cd New_Git_lesson
+  308  git clone git@github.com:emilioes/git_lesson.git
+  309  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+  310  ls
+  311  cd git_lesson
+  312  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+  313  sh replace_in_file character1/Ygritte.txt "You know nothing"
+  314  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+  315  git diff
+  316  git add character1/Ygritte.txt
+  317  git commit -m "Ygrette message"
+  318  git push
+  319  python display_dialog.py --char1 character1/James.txt --char2 character2/Sylvia.txt
+  320  sh replace_in_file character1/James.txt "Bond"
+  321  python display_dialog.py --char1 character1/James.txt --char2 character2/Sylvia.txt
+  322  git diff
+  323  git add character1/james.txt
+  324  ls
+  325  git diff
+  326  git add character1/James.txt
+  327  git commit -m "Bond"
+  328  git push
+  329  python display_dialog.py --char1 character1/voice_fc.txt --char2 character2/Tyler.txt
+  330  sh replace_in_file character2/Tyler.txt "You do not talk about fight club"
+  331  git status
+  332  git diff
+  333  git add character/voice_fc.txt
+  334  git add character2/Tyler.txt
+  335  git commit -m "Tyler message"
+  336  git push
+  337  python display_dialog.py --char1 character1/appollo13.txt --char2 character2/Jim.txt
+  338  sh replace_in_file character2/Jim.txt "Houston we got a problem"
+  339  python display_dialog.py --char1 character1/appollo13.txt --char2 character2/Jim.txt
+  340  sh replace_in_file character2/Jim.txt "Houston we've got a problem"
+  341  python display_dialog.py --char1 character1/appollo13.txt --char2 character2/Jim.txt
+  342  git diff
+  343  git add character2/Jim.txt
+  344  git commit -m "Houston's problem"
+  345  git push
+  346  python display_dialog.py --char1 character1/Marty.txt --char2 character2/Emmet.txt
+  347  sh replace_in_file character2/Emmet.txt "we dont need roads"
+  348  python display_dialog.py --char1 character1/Marty.txt --char2 character2/Emmet.txt
+  349  git diff
+  350  git add character2/Emmet.txt
+  351  git commit -m "Back to future"
+  352  git push
+  353  python display_dialog.py --char1 character1/DarthVader.txt --char2 character2/Luke.txt
+  354  sh replace_in_file character2/Luke.txt "Noooooo Nooooooooo"
+  355  python display_dialog.py --char1 character1/DarthVader.txt --char2 character2/Luke.txt
+  356  git diff
+  357  git add character2/Luke.txt
+  358  git commit -m "Luke's noooo"
+  359  sh replace_in_file character2/Luke.txt "Noooooo"
+  360  git diff
+  361  python display_dialog.py --char1 character1/DarthVader.txt --char2 character2/Luke.txt
+  362  sh replace_in_file character2/Luke.txt "Noooooo"
+  363  git diff
+  364  nano character2/Luke.txt
+  365  git diff
+  366  nano character2/Luke.txt
+  367  git diff
+  368  nano character2/Luke.txt
+  369  git add character2/Luke.txt
+  370  git commit -m "Luke's noooo"
+  371  nano character2/Luke.txt
+  372  git add character2/Luke.txt
+  373  git commit -m "Luke's noooo"
+  374  git push
+  375  python display_dialog.py --char1 character1/Forrest.txt --char2 character2/Lady.txt
+  376  sh replace_in_file character1/Forrest.txt "that"
+  377  python display_dialog.py --char1 character1/Forrest.txt --char2 character2/Lady.txt
+  378  git diff
+  379  git add character/Forrest.txt
+  380  git add character1/Forrest.txt
+  381  git commit -m "Forrest Gump"
+  382  git push
+  383  git show Forrest Gump
+  384  git show "Forrest Gump"
+  385  git show
+  386  git log
+  387  git show
+  388  git revert 2d8c0a7117f8af300c88afb3c96b74e77ac756cf
+  389  git diff
+  390  python display_dialog.py --char1 character1/Forrest.txt --char2 character2/Lady.txt
+  391  ls
+  392  cd ..
+  393  cd git_lesson
+  394  git branch git_lesson_new_branch
+  395  ls
+  396  git checkout git_lesson_new_branch
+  397  python display_dialog.py --char1 character1/Forrest.txt --char2 character2/Lady.txt
+  398  sh replace_in_file character1/Forrest.txt "[???]"
+  399  sh replace_in_file character1/Forrest.txt "that"
+  400  git diff
+  401  git add character1/Forrest.txt
+  402  git commit -m "Forrest Gump b2"
+  403  git push
+  404  git push --set-upstream origin git_lesson_new_branch
+  405  git checkout master
+  406  ls
+  407  cd replace_in_file
+  408  less replace_in_file
+  409  python display_dialog.py --char1 character1/Fabrizio.txt --char2 character2/Jack.txt
+  410  sh replace_in_file character2/Jack.txt "KING OF THE WORLD"
+  411  python display_dialog.py --char1 character1/Fabrizio.txt --char2 character2/Jack.txt
+  412  git add character2/Jack.txt
+  413  git commit -m "Jack the king"
+  414  git diff
+  415  git push
+  416  ls
+  417  git merge git_lesson_new_branch
+  418  LS
+  419  ls
+  420  cd
+  421  ls
+  422  cd emilio
+  423  ls
+  424  cd Got
+  425  cd GoT
+  426  history > history.txt
